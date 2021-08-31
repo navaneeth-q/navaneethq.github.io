@@ -80,6 +80,14 @@ nav{
     text-align: center;
 }
 
+h2{
+    font-weight: bold;
+}
+
+#lposts ul{
+    padding: 0;
+}
+
 .main.intro{
     flex: 70%;
     padding: 20px;
