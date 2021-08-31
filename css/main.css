@@ -47,7 +47,7 @@ ul{
     background-color: #f1f1f1;
 }
 
-#nav{
+nav{
     padding-left: 30px;
     flex: 15%;
 }
@@ -57,7 +57,7 @@ ul{
     padding: 10px 0 10px 10px;
 }
 
-.menuItem{
+.menu li{
     padding: 10px;
     padding-right: 100%;
     border-bottom-style: solid;
@@ -91,7 +91,7 @@ ul{
     margin: auto;
 }
 
-.footer{
+footer{
     background-color: #c7c7c7;
     height: 30%;
 }
