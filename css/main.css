@@ -24,7 +24,7 @@ ul{
     list-style-type: none;
 }
 
-#hbar{
+#header-bar{
     position: absolute;
     left: 0;
     bottom: 0;
@@ -68,35 +68,44 @@ nav{
 
 #content{
     flex: 65%;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     background-color: white;
     height: fit-content;
 }
 
-#lposts{
-    flex: 20%;
-    padding: 1em;
-    text-align: center;
-}
-
-h2{
-    font-weight: bold;
-}
-
-#lposts ul{
-    padding: 0;
-}
-
 .main.intro{
     flex: 70%;
-    padding: 20px;
+    padding: 0 20px;
 }
 
 .main.image{
     flex: 30%;
-    padding-right: 20px;
-    margin: auto;
+    padding: 0.45em 20px;
+    /* margin: auto; */
+}
+
+h1{
+    margin: 0;
+}
+
+#latest-posts{
+    flex: 20%;
+    padding: 1em;
+    /* text-align: center; */
+}
+
+h2{
+    margin: 0;
+    font-weight: bold;
+}
+
+#latest-posts ul{
+    padding: 0;
+}
+
+.post-image{
+    width: 150px;
 }
 
 footer{
